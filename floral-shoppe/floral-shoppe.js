@@ -85,6 +85,7 @@ function createVideoTexture() {
   video = document.createElement('video');
   video.src = "nyc.mp4";
   video.loop = true;
+  video.muted = true;
   video.load(); // must call after setting/changing source
   video.play();
 
